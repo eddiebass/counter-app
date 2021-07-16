@@ -15,12 +15,12 @@
 <body>
     <main>
         <h1>STATION ATTENDANCE</h1>
-        <p>Number of Entries: <span>0</span></p>
+        <p>Number of Entries: <span id="entry"></span></p>
         <div class="wrap">
-            <button>INCREMENT</button>
-            <button class="save-btn">SAVE</button>
+            <button onclick="increment()">INCREMENT</button>
+            <button class="save-btn" onclick="saveCount()">SAVE</button>
         </div>
-        <p>Previous Entries: <span>0</span></p>
+        <p>Previous Entries: <span id="pre-entry"></span></p>
 
     </main>
 
