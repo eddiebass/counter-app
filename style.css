@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.wrap{
+    margin-bottom: 15px;
+}
+
+button{
+    border: none;
+    background-color: #3498db;
+    padding: 10px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+.save-btn{
+    background-color: #2ecc71;
+    margin-left: 5px;
+}
